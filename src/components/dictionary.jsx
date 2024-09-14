@@ -38,7 +38,7 @@ export default function Dict() {
           placeholder="Search for a word..."
         />
         <button onClick={handleSearch}>Search</button>
-        <h2>Defination:</h2>
+        <h2>Definition:</h2>
         <p>{result}</p>
       </div>
     );
