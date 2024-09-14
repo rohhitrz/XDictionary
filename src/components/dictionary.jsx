@@ -30,14 +30,15 @@ export default function Dict() {
 
     return (
       <div>
-        <h1>XDictionary</h1>
+        
         <input
           type="text"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          placeholder="Enter a word"
+          placeholder="Search for a word..."
         />
         <button onClick={handleSearch}>Search</button>
+        <h2>Defination:</h2>
         <p>{result}</p>
       </div>
     );
